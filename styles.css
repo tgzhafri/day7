@@ -40,11 +40,21 @@ nav ul {
   justify-content: space-evenly;
   align-items: center;
 }
+nav ul a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
 nav ul li {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  transition: all 0.3s;
+}
+nav ul li:hover {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 nav ul img {
     height: 120px;
@@ -79,6 +89,7 @@ nav ul .fa, nav ul img {
   align-items: flex-start;
   gap: 1rem;
   padding: 1.3rem 0;
+  scroll-behavior: smooth;
 }
 .my-name p {
   text-align: justify;
@@ -320,6 +331,7 @@ input {
     display: block;
     font-size: 2rem;
     line-height: 70px;
+    text-align: center;
   }
 
   nav ul {
