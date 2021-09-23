@@ -14,6 +14,7 @@ body {
   height: 100%;
   font-family: "Montserrat", sans-serif;
   background-color: var(--primary-color);
+  scroll-behavior: smooth;
 }
 img {
   max-width: 100%;
@@ -89,7 +90,7 @@ nav ul .fa, nav ul img {
   align-items: flex-start;
   gap: 1rem;
   padding: 1.3rem 0;
-  scroll-behavior: smooth;
+
 }
 .my-name p {
   text-align: justify;
